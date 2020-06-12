@@ -4,10 +4,10 @@ public class Main {
         float index = service.calculate(80,183);
         System.out.println("Индекс массы тела: " + index);
 
-        float MoreThanCurrentIndex = service.calculate(105,160);
-        System.out.println("Индекс массы тела: " + MoreThanCurrentIndex);
+        float moreThanCurrentIndex = service.calculate(105,160);
+        System.out.println("Индекс массы тела: " + moreThanCurrentIndex);
 
-        float LessThanCurrentIndex = service.calculate(45,170);
-        System.out.println("Индекс массы тела: " + LessThanCurrentIndex);
+        float lessThanCurrentIndex = service.calculate(45,170);
+        System.out.println("Индекс массы тела: " + lessThanCurrentIndex);
     }
 }
